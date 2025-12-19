@@ -5,7 +5,6 @@ const Section5 = () => {
     <section className="bg-[#2B1F2F] py-20 text-white">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        {/* LEFT IMAGE */}
         <div className="relative">
           <img
             src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
@@ -13,13 +12,12 @@ const Section5 = () => {
             className="rounded-2xl w-full"
           />
 
-          {/* FLOATING TAGS */}
-          <div className="absolute top-10 left-6 bg-white text-black rounded-lg px-4 py-2 text-sm shadow">
-            ✔ View <br /> Org hiring reports
+         <div className="absolute top-10 left-6 bg-white text-black rounded-lg px-4 py-2 text-sm shadow">
+             View <br /> Org hiring reports
           </div>
 
           <div className="absolute bottom-10 right-6 bg-white text-black rounded-lg px-4 py-2 text-sm shadow">
-            ✔ Do this <br /> Configure usage limits
+             Do this <br /> Configure usage limits
           </div>
         </div>
 

@@ -26,7 +26,6 @@ const Section7 = () => {
     <section className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* HEADING */}
         <div className="text-center mb-14">
           <h2 className="text-3xl font-bold text-slate-900 mb-3">
             Why hire from apna?
@@ -36,9 +35,7 @@ const Section7 = () => {
             the way businesses find high-quality talent quickly & effortlessly.
           </p>
         </div>
-
-        {/* STATS */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 text-center mb-20">
+ <div className="grid grid-cols-1 md:grid-cols-4 gap-10 text-center mb-20">
           {[
             ["5 Lakhs+", "New candidates join apna every month."],
             ["200+", "Job categories to publish your job."],
@@ -95,15 +92,13 @@ const Section7 = () => {
               TATA 1mg
             </div>
 
-            {/* Arrow */}
-            <button className="absolute right-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full border border-slate-300 flex items-center justify-center">
+           <button className="absolute right-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full border border-slate-300 flex items-center justify-center">
               →
             </button>
           </div>
         </div>
 
-        {/* FAQ */}
-        <div className="max-w-4xl mx-auto">
+       <div className="max-w-4xl mx-auto">
           <h3 className="text-xl font-bold text-slate-900 mb-8">
             Frequently asked questions
           </h3>

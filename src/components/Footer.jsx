@@ -12,10 +12,8 @@ const Footer = () => {
     <footer className="bg-gradient-to-b from-[#2C1E2F] to-[#241726] text-white pt-20">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* TOP */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 pb-14">
 
-          {/* LOGO + SOCIAL */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="bg-white text-black font-bold px-2 py-1 rounded">
@@ -32,7 +30,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* PRODUCT */}
           <div>
             <h4 className="text-sm font-semibold mb-4 uppercase">
               Product
@@ -46,7 +43,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* GET TO KNOW US */}
           <div>
             <h4 className="text-sm font-semibold mb-4 uppercase">
               Get to know us
@@ -59,7 +55,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* RESOURCES */}
           <div>
             <h4 className="text-sm font-semibold mb-4 uppercase">
               Resources
@@ -71,10 +66,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* DIVIDER */}
         <div className="border-t border-white/20"></div>
 
-        {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-400 py-6 gap-4">
           <p>© 2025 Apna | All rights reserved.</p>
 

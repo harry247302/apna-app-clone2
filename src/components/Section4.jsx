@@ -5,7 +5,6 @@ const Section4 = () => {
     <section className="bg-[#E9FAF8] py-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        {/* LEFT CONTENT */}
         <div>
           <p className="text-sm font-semibold text-teal-700 mb-3">
             💬 WHATSAPP FAST RECRUIT
@@ -39,9 +38,7 @@ const Section4 = () => {
             Install chrome extension
           </button>
         </div>
-
-        {/* RIGHT MOCKUP */}
-        <div 
+ <div 
         // className="relative bg-teal-700 rounded-2xl p-6 shadow-xl"
         >
          <img src={img} alt="" />

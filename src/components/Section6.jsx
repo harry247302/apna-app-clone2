@@ -5,8 +5,7 @@ const Section6 = () => {
     <section className="bg-[#EFE3FF] py-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        {/* LEFT CONTENT */}
-        <div>
+       <div>
           <p className="text-xs font-semibold text-purple-600 uppercase mb-2">
             Introducing
           </p>
@@ -25,7 +24,6 @@ const Section6 = () => {
           </button>
         </div>
 
-        {/* RIGHT BOOK MOCKUP */}
         <div className="relative flex justify-center">
           <img
             src={img}
@@ -33,8 +31,7 @@ const Section6 = () => {
             className="rounded-xl "
           />
 
-          {/* Decorative shapes */}
-          <div className="absolute -top-6 left-6 w-10 h-10 bg-purple-300 rounded-full opacity-70" />
+         <div className="absolute -top-6 left-6 w-10 h-10 bg-purple-300 rounded-full opacity-70" />
           <div className="absolute -bottom-6 right-10 w-10 h-10 bg-yellow-300 rounded-full opacity-70" />
         </div>
       </div>

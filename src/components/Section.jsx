@@ -43,7 +43,6 @@ const Section = () => {
           A single platform for your hiring needs
         </h2>
 
-          {/* SLIDER */}
         <div className="relative overflow-hidden">
           <div className="flex w-max animate-marquee gap-14">
             {/* FIRST SET */}

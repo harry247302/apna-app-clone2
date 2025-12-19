@@ -5,7 +5,7 @@ const Section2 = () => {
         <section className="bg-[#F6F1FF] py-20">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-                {/* LEFT CONTENT */}
+               
                 <div>
                     <p className="text-sm font-semibold text-purple-600 flex items-center gap-2 mb-4">
                         APNA DATABASE
@@ -19,7 +19,6 @@ const Section2 = () => {
 
                     </h1>
 
-                    {/* ACCORDION */}
                     <div className="space-y-5">
                         <div className="border-b border-purple-200 pb-4">
                             <div className="flex justify-between items-center font-semibold text-slate-900">
@@ -53,7 +52,6 @@ const Section2 = () => {
                     </button>
                 </div>
 
-                {/* RIGHT CARD */}
                 <div
                 // className="relative rounded-3xl p-8 bg-gradient-to-br from-purple-400 via-indigo-400 to-blue-400 shadow-2xl"
                 >
@@ -62,7 +60,6 @@ const Section2 = () => {
                 </div>
             </div>
 
-            {/* FEATURES */}
             <div className="max-w-7xl mx-auto px-6 mt-20 grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
                 <div>
                     <div className="text-purple-600 text-3xl mb-3">📞</div>
@@ -75,7 +72,7 @@ const Section2 = () => {
                 </div>
 
                 <div>
-                    <div className="text-purple-600 text-3xl mb-3">📊</div>
+                    <div className="text-purple-600 text-3xl mb-3"></div>
                     <h4 className="font-semibold text-slate-900 mb-2">
                         80% response rate with AI
                     </h4>

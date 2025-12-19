@@ -5,7 +5,6 @@ const Section3 = () => {
     <section className="bg-[#FFF9DB] py-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-        {/* LEFT IMAGE CARD */}
         <div className="bg-[#FFED99] rounded-2xl p-10 flex justify-center items-center relative overflow-hidden">
           <img
             src={img}
@@ -13,12 +12,10 @@ const Section3 = () => {
             className=""
           />
 
-          {/* Decorative circles */}
           <div className="absolute top-10 right-10 w-24 h-24 rounded-full border border-yellow-300 opacity-40" />
           <div className="absolute bottom-10 left-10 w-20 h-20 rounded-full border border-yellow-300 opacity-40" />
         </div>
 
-        {/* RIGHT CONTENT */}
         <div>
           <p className="text-sm font-semibold text-orange-600 mb-3">
             🏆 APNA CAMPUSAI
@@ -31,7 +28,6 @@ const Section3 = () => {
 
           <div className="border-t border-slate-300 mb-6"></div>
 
-          {/* ACCORDION ITEMS */}
           <div className="space-y-4">
             <div className="border-b border-slate-300 pb-4 flex justify-between items-center">
               <span className="font-semibold text-slate-900">
@@ -59,7 +55,6 @@ const Section3 = () => {
             </div>
           </div>
 
-          {/* CTA */}
           <button className="mt-8 bg-teal-700 hover:bg-teal-800 text-white px-6 py-3 rounded-lg font-semibold shadow transition">
             Book a demo
           </button>
